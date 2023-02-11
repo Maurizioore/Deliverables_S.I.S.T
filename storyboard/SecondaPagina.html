@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: white;
+      }
+
+      .image {
+        width: 80%;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="center">
+      <img id="currentImage" class="image" src="immagini/1.png" onclick="switchImage()">
+    </div>    
+  <a href= "TerzaPagina.html" style="position: absolute;left: 258px;top: 311px;color: transparent;width: 655px;height: 145px;"> </a>
+    <a href="PaginaLogin.html" style="position: absolute; left: 1225px; top: 115px; color: transparent; width: 60px; height: 70px;"> </a>
+   <!--<script>
+      let currentImageIndex = 1;
+      const images = [
+        "immagini/1.png",
+        "immagini/2.png",
+        "immagini/3.png",
+        "immagini/4.png"
+      ];
+
+      function switchImage() {
+        currentImageIndex = (currentImageIndex + 1) % images.length;
+        document.getElementById("currentImage").src = images[currentImageIndex];
+      }
+    </script> --> 
+  </body>
+</html>
+
