@@ -1,0 +1,6 @@
+Nella scrittura del codice ho utilizzato i seguenti pattern:
+
+1)State
+2)Observer
+3)Factory
+4)Singleton
